@@ -58,7 +58,7 @@ tools:context=".LoginActivity">
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_weight="1.0"
-        android:text="login"
+        android:text="LOGIN"
         android:id="@+id/button"
         android:textSize="35px" />
 
@@ -68,7 +68,7 @@ tools:context=".LoginActivity">
         android:layout_marginLeft="25dp"
         android:layout_marginRight="50dp"
         android:layout_weight="1.0"
-        android:text="Sign up"
+        android:text="SIGN UP"
         android:id="@+id/button2"
         android:textSize="35px" />
     </LinearLayout>
