@@ -20,7 +20,6 @@ public class DonationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donation);
 
-
         b1=(Button)findViewById(R.id.button);
         ed=(EditText)findViewById(R.id.editText);
     }

@@ -4,12 +4,12 @@ android:orientation="vertical" android:background="@drawable/backrepeat" android
 tools:context=".LoginActivity">
 
     <ImageView
-        android:layout_marginTop="40dp"
         android:layout_width="wrap_content"
         android:layout_height="400px"
         android:id="@+id/imageView"
         android:src="@drawable/logo"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
         android:layout_gravity="center"
         />
 
@@ -19,14 +19,14 @@ tools:context=".LoginActivity">
         android:gravity="center"
         android:id="@+id/editText"
         android:hint="Username"
-        android:alpha="0.75"
+        android:alpha="0.65"
         android:layout_gravity="center"
         android:layout_marginBottom="20px"
         android:focusable="true"
         android:textSize="45px"
         android:textColorHighlight="#ff7eff15"
         android:textColorHint="@color/color_dark2"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="25dp"
         android:layout_below="@+id/imageView"
      />
 
@@ -35,7 +35,7 @@ tools:context=".LoginActivity">
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="45px"
-        android:alpha="0.75"
+        android:alpha="0.65"
         android:inputType="textPassword"
         android:layout_gravity="center"
         android:ems="10"
