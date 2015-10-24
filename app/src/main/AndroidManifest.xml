@@ -43,7 +43,8 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity android:name=".EnterCodeActivity"
-            android:label="enterCodeActivity">
+            android:label="enterCodeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value="com.hackathon.google.micro.EnterCodeActivity" />
