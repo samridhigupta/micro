@@ -26,8 +26,16 @@
         <activity
             android:name=".DonationActivity"
             android:label="@string/title_activity_next"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".LoginActivity" >
+            android:parentActivityName=".EnterCodeActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hackathon.google.micro.EnterCodeActivity" />
+        </activity>
+        <activity android:name=".EnterCodeActivity"
+            android:label="enterCodeActivity"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.hackathon.google.micro.LoginActivity" />
