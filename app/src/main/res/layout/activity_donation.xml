@@ -67,5 +67,15 @@
         android:layout_gravity="center"
         android:id="@+id/tv"
         />
+    <Button
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Discover Restaurants"
+        android:id="@+id/button1"
+        android:background="@color/color_light4"
+        />
 
 </LinearLayout>

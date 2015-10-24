@@ -77,4 +77,15 @@
         android:layout_gravity="center"
         android:gravity="center"/>
 
+    <Button
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Enter a donation code"
+        android:id="@+id/button1"
+        android:layout_below="@+id/editText3"
+        android:background="@color/color_light4"
+        />
 </LinearLayout>
