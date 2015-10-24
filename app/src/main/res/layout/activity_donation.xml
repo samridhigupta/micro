@@ -76,6 +76,7 @@
         android:text="Discover Restaurants"
         android:id="@+id/button1"
         android:background="@color/color_light4"
+        android:onClick="discover"
         />
 
 </LinearLayout>

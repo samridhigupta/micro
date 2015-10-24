@@ -87,5 +87,6 @@
         android:id="@+id/button1"
         android:layout_below="@+id/editText3"
         android:background="@color/color_light4"
+        android:onClick="enterCode"
         />
 </LinearLayout>

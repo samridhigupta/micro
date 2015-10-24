@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class EnterCodeActivity extends AppCompatActivity {
-    Button b1;
+    Button b1, b2;
     EditText ed;
 
     @Override
@@ -19,6 +19,7 @@ public class EnterCodeActivity extends AppCompatActivity {
 
         b1=(Button)findViewById(R.id.button3);
         ed=(EditText)findViewById(R.id.editText3);
+        b2 = (Button) findViewById(R.id.button);
 
     }
 
@@ -31,5 +32,10 @@ public class EnterCodeActivity extends AppCompatActivity {
         else{
             Toast.makeText(getApplicationContext(), "Your code was not recognized, please try again", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    public void discover(View view){
+        Intent intent = new Intent(this, ShelterActivity.class);
+        startActivity(intent);
     }
 }
