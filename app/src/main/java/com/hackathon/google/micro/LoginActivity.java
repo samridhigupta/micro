@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class LoginActivity extends Activity {
 
 
-    Button b1,b2, googleSignIn;
+    Button b1,b2;
     EditText ed1,ed2;
 
     @Override
