@@ -18,7 +18,7 @@ tools:context=".MainActivity">
     android:id="@+id/textView"
     android:layout_below="@+id/textview"
     android:layout_centerHorizontal="true"
-    android:textColor="#ff7aff24"
+    android:textColor="#ff1125e6"
     android:textSize="35dp" />
 
 <EditText
@@ -64,7 +64,9 @@ tools:context=".MainActivity">
     android:id="@+id/button"
     android:layout_alignParentBottom="true"
     android:layout_toLeftOf="@+id/textview"
-    android:layout_toStartOf="@+id/textview" />
+    android:layout_toStartOf="@+id/textview"
+    android:onClick="login" />
+
 
 <Button
     android:layout_width="wrap_content"
