@@ -17,7 +17,7 @@ public class ShelterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_redemption);
+        setContentView(R.layout.activity_shelter);
         b1=(Button)findViewById(R.id.button);
         ed=(EditText)findViewById(R.id.editZipCode);
         tv = (TextView)findViewById(R.id.numberOfMealsDonated);
