@@ -16,4 +16,6 @@
     </string>
     <string name="title_activity_donation">DonationActivity</string>
     <string name="title_activity_next">nextActivity</string>
+    <string name="title_activity_redemption">RedemptionActivity</string>
+    <string name="title_activity_shelter">ShelterActivity</string>
 </resources>

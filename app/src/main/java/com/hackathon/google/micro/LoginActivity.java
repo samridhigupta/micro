@@ -44,8 +44,14 @@ public class LoginActivity extends Activity {
         if(ed1.getText().toString().equals("admin") && ed2.getText().toString().equals("admin")) {
             Intent intent = new Intent(this, EnterCodeActivity.class);
             startActivity(intent);
-        }
-        else{
+        } else if(ed1.getText().toString().equals("user") && ed2.getText().toString().equals("user")) {
+                Intent intent = new Intent(this, DonationActivity.class);
+                startActivity(intent);
+
+        } else if(ed1.getText().toString().equals("shelter") && ed2.getText().toString().equals("shelter")) {
+            Intent intent = new Intent(this, ShelterActivity.class);
+            startActivity(intent);
+        }else{
             Toast.makeText(getApplicationContext(), "Wrong Credentials",Toast.LENGTH_SHORT).show();
         }
     }
