@@ -1,6 +1,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-android:orientation="vertical" android:background="@drawable/backrepeat" android:layout_height="match_parent"
+android:orientation="vertical"
+    android:paddingLeft="16px"
+    android:paddingRight="16px"
+    android:paddingTop="16px"
+    android:paddingBottom="16px"
+    android:background="@drawable/backrepeat" android:layout_height="match_parent"
 tools:context=".LoginActivity">
 
     <ImageView
@@ -9,7 +14,7 @@ tools:context=".LoginActivity">
         android:id="@+id/imageView"
         android:src="@drawable/logo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="50dp"
         android:layout_gravity="center"
         />
 
@@ -51,7 +56,7 @@ tools:context=".LoginActivity">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-        android:layout_height="match_parent" android:layout_marginTop="20dp"
+        android:layout_height="70dp" android:layout_marginTop="20dp"
         tools:context=".MainActivity">
 
     <Button
@@ -74,4 +79,12 @@ tools:context=".LoginActivity">
         android:id="@+id/button2"
         android:textSize="35px" />
     </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google Login"
+        android:id="@+id/button3"
+        android:textSize="35px"
+        android:layout_gravity="center"/>
 </LinearLayout>
