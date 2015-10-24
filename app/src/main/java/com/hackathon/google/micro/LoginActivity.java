@@ -4,11 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.Window;
-import android.view.inputmethod.EditorInfo;
-import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -19,7 +14,7 @@ import android.widget.Toast;
 public class LoginActivity extends Activity {
 
 
-    Button b1,b2;
+    Button b1,b2, googleSignIn;
     EditText ed1,ed2;
 
     @Override

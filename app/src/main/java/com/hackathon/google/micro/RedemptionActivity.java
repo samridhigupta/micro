@@ -27,3 +27,4 @@ public class RedemptionActivity extends AppCompatActivity {
     }
 
 }
+
