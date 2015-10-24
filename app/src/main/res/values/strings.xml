@@ -19,4 +19,5 @@
     <string name="title_activity_redemption">RedemptionActivity</string>
     <string name="title_activity_shelter">ShelterActivity</string>
     <string name="title_activity_enter_code">EnterCode</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
