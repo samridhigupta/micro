@@ -32,18 +32,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/numberOfMealsDonatedText"
-        android:layout_below="@+id/numberOfMealsDonatedText"
         android:textColor="@color/color_dark2"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:textSize="100dp"
-        android:text="53"
         android:layout_marginTop="58dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true"
+        android:id="@+id/numberOfMealsDonated" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -61,7 +59,7 @@
             android:layout_centerHorizontal="true"
             android:textColor="@color/color_dark2"
             android:textSize="35dp"
-            android:layout_marginTop="158dp"
+            android:layout_marginTop="58dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentRight="true"
@@ -74,7 +72,7 @@
             android:hint="ZipCode"
             android:focusable="true"
             android:textColorHint="@color/color_dark2"
-            android:layout_marginTop="160dp"
+            android:layout_marginTop="60dp"
             android:layout_marginLeft="160dp"
             android:layout_below="@+id/editZipCode"
             android:layout_alignParentLeft="true"
@@ -94,6 +92,7 @@
             android:layout_below="@+id/button"
             android:layout_alignParentRight="true"
             android:textColor="@color/color_dark2"
+            android:layout_marginTop="60dp"
             android:layout_alignParentEnd="true"/>
     </LinearLayout>
 
