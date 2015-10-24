@@ -23,7 +23,7 @@ public class RedemptionActivity extends AppCompatActivity {
     }
 
     public void redeem(View view) {
-        Toast.makeText(getApplicationContext(), "Redeemed " + ed.getText().toString() + " number of meals", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "Redeemed " + ed.getText().toString() + " meals", Toast.LENGTH_SHORT).show();
     }
 
 }

@@ -47,7 +47,7 @@ public class LoginActivity extends Activity {
             Intent intent = new Intent(this, ShelterActivity.class);
             startActivity(intent);
         }else{
-            Toast.makeText(getApplicationContext(), "Wrong Credentials",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Wrong Credentials, Try Again",Toast.LENGTH_SHORT).show();
         }
     }
 }

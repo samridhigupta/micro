@@ -26,7 +26,7 @@ public class ShelterActivity extends AppCompatActivity {
 
     public void find(View view) {
         Toast.makeText(getApplicationContext(),
-                "Hotel 1 provides with  free  meals", Toast.LENGTH_SHORT).show();
+                "Loading restaurants that pay it forward!", Toast.LENGTH_SHORT).show();
     }
 
 }
