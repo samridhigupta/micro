@@ -42,7 +42,7 @@ public class LoginActivity extends Activity {
 
     public void login(View view) {
         if(ed1.getText().toString().equals("admin") && ed2.getText().toString().equals("admin")) {
-            Intent intent = new Intent(this, DonationActivity.class);
+            Intent intent = new Intent(this, EnterCodeActivity.class);
             startActivity(intent);
         }
         else{
