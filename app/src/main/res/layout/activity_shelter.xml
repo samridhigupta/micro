@@ -5,6 +5,10 @@
     android:background="@drawable/backrepeat"
     android:layout_height="match_parent" android:fitsSystemWindows="true"
     android:orientation="vertical"
+    android:paddingLeft="16px"
+    android:paddingRight="16px"
+    android:paddingTop="16px"
+    android:paddingBottom="16px"
     tools:context="com.hackathon.google.micro.ShelterActivity"
     android:weightSum="1">
 
