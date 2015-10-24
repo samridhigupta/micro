@@ -25,7 +25,7 @@
         android:id="@+id/textView"
         android:layout_below="@+id/textview"
         android:textColor="@color/color_dark2"
-        android:textSize="40dp" />
+        android:textSize="38dp" />
 
     <EditText
         android:layout_width="500px"
